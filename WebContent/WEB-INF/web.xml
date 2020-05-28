@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+	<context-param>
+		<description>the database endpoint URL (inlcuding port); change "your-database-name" to your actual database name</description>
+		<param-name>dbhost</param-name>
+		<param-value>localhost/gvg</param-value>
+	</context-param>
+
+	<context-param>
+		<description>the database endpoint username</description>
+		<param-name>dbusername</param-name>
+		<param-value>root</param-value>
+	</context-param>
+
+	<context-param>
+		<description>the database endpoint password</description>
+		<param-name>dbpassword</param-name>
+		<param-value>1234</param-value>
+	</context-param>
+	
+	<servlet-mapping>
+		<url-pattern>/Home</url-pattern>
+		<servlet-name>Home</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Home</servlet-name>
+		<servlet-class>com.pages.Home</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/How</url-pattern>
+		<servlet-name>How</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>How</servlet-name>
+		<servlet-class>com.pages.How</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/Calculator</url-pattern>
+		<servlet-name>Calculator</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Calculator</servlet-name>
+		<servlet-class>com.pages.Calculator</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/Facts</url-pattern>
+		<servlet-name>Facts</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Facts</servlet-name>
+		<servlet-class>com.pages.Facts</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/About</url-pattern>
+		<servlet-name>About</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>About</servlet-name>
+		<servlet-class>com.pages.About</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/DropBoxes</url-pattern>
+		<servlet-name>DropBoxes</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DropBoxes</servlet-name>
+		<servlet-class>com.controllers.DropBoxes</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/GetCars</url-pattern>
+		<servlet-name>GetCars</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GetCars</servlet-name>
+		<servlet-class>com.controllers.GetCars</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/Login</url-pattern>
+		<servlet-name>Login</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.pages.Login</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/Admin</url-pattern>
+		<servlet-name>Admin</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Admin</servlet-name>
+		<servlet-class>com.pages.Admin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/Logout</url-pattern>
+		<servlet-name>Logout</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.pages.Logout</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/UpdateGVG</url-pattern>
+		<servlet-name>UpdateGVG</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UpdateGVG</servlet-name>
+		<servlet-class>com.pages.UpdateGVG</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/UpdatePass</url-pattern>
+		<servlet-name>UpdatePass</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UpdatePass</servlet-name>
+		<servlet-class>com.pages.UpdatePass</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<url-pattern>/Result</url-pattern>
+		<servlet-name>Result</servlet-name>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Result</servlet-name>
+		<servlet-class>com.pages.Result</servlet-class>
+	</servlet>
+
+</web-app>
