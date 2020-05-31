@@ -15,6 +15,7 @@
 			<p class="Sub_headings">How does it works</p>
 			<div class="text_container">
 				<jsp:include page="Text/howData.jsp"></jsp:include>
+				<button class="button transparent-bg dark m-1" onclick="window.location.href='download/User Documentation.pdf'">Download User Manual</button>
 			</div>
 		</div>
 
