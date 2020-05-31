@@ -1,4 +1,10 @@
-    package com.pages;
+/*
+ * Maisam Alatrach 20091817
+ * Oudai Fayek 20091861
+ * Latrobe University
+ * 29/05/2020
+ */
+package com.pages;
 
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
